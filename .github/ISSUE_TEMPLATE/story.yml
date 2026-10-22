@@ -1,0 +1,16 @@
+   name: User story
+   description: A feature from the user's point of view
+   labels: ["type: story"]
+   body:
+     - type: textarea
+       id: story
+       attributes:
+         label: User story
+         placeholder: "As a [user], I want [goal] so that [benefit]"
+       validations:
+         required: true
+     - type: textarea
+       id: acceptance
+       attributes:
+         label: Acceptance criteria
+         value: "- [ ] \n- [ ] \n- [ ] "
